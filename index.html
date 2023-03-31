@@ -6,59 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
+    <link rel="stylesheet" href="style.css">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background: rgb(27,21,24);
-            background: radial-gradient(circle, rgba(27,21,24,1) 0%, rgba(108,115,124,1) 100%);
-        }
-        .container {
-            position: relative;
-            max-width: 20rem;
-            height: 100vh;
-            margin: auto;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .container img {
-            max-width: 18.75rem;
-            /* height: 500px; */
-        }
-        .links {
-            max-width: 18.75rem;
-            height: 4.125rem;
-            position: absolute;
-            bottom: 3.6875rem;
-            left: 0.625rem;
-          
-
-            display: flex;
-            justify-content: center;
-            gap: 0.7rem;
-        }
-        .links a div {
-            height: 4.125rem;
-            width: 4.1875rem;
-            
-        }
-    </style>
 </head>
 <body>
     <div class="container">
-        <div class="links">
-            <a href="https://www.instagram.com/motoristaparticulargho/" ><div class="instagrem"></div></a>
-            <a href="https://api.whatsapp.com/send?phone=351967292079"><div class="whats"></div></a>
-            <a href="https://aurelianoderafa.github.io/GHOwebsite/"><div class="site"></div></a>
-            
+        <div class="content">
+            <div class="gho">
+                <h1>GHO</h1>
+            </div>
+            <div class="foto">
+                <img src="assets/perfil.png" alt="">
+            </div>
+            <div class="nome">
+                <p>Gustavo Oliveira</p>
+            </div>
+            <div class="s-nome">
+                <p>Motorista Particular PT</p>
+            </div>
+            <div class="estrela">
+                <img src="assets/5-Stars.png" alt="">
+            </div>
+            <div class="carro">
+                <img src="assets/carro.png" alt="">
+            </div>
+            <div class="links">
+                <a href="https://www.instagram.com/motoristaparticulargho/"><div class="insta">
+                    <img src="assets/insta.png" alt="">
+                </div></a>
+                <a href="https://api.whatsapp.com/send?phone=351967292079"><div class="whats">
+                    <img src="assets/whatsapp-logo-png-white.webp" alt="">
+                </div></a>
+                <a href="https://aurelianoderafa.github.io/GHOwebsite/"><div class="site">
+                    <img src="assets/site.png" alt="">
+                </div></a>
+            </div>
         </div>
-        <img src="GHO.png" alt="">
     </div>
 </body>
 </html>
